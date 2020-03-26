@@ -15,6 +15,10 @@
 		3A9807E0242BF2C6000BDCEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9807DE242BF2C6000BDCEE /* LaunchScreen.storyboard */; };
 		3A9807E3242BF2C6000BDCEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9807E2242BF2C6000BDCEE /* main.m */; };
 		3A9807EB242BF87D000BDCEE /* ShapeDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9807EA242BF87D000BDCEE /* ShapeDrawer.m */; };
+		F0BD27CF242C098A008581DA /* RectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BD27CE242C098A008581DA /* RectangleView.m */; };
+		F0BD27D2242C1ED6008581DA /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BD27D1242C1ED6008581DA /* CircleView.m */; };
+		F0BD27D5242C1EFE008581DA /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BD27D4242C1EFE008581DA /* TriangleView.m */; };
+		F0BD27D8242C1F11008581DA /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BD27D7242C1F11008581DA /* PieView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,15 @@
 		3A9807E2242BF2C6000BDCEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A9807E9242BF87D000BDCEE /* ShapeDrawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeDrawer.h; sourceTree = "<group>"; };
 		3A9807EA242BF87D000BDCEE /* ShapeDrawer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeDrawer.m; sourceTree = "<group>"; };
+		F0BD27CA242C095A008581DA /* UISegmentedControlObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControlObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		F0BD27CD242C098A008581DA /* RectangleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectangleView.h; sourceTree = "<group>"; };
+		F0BD27CE242C098A008581DA /* RectangleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectangleView.m; sourceTree = "<group>"; };
+		F0BD27D0242C1ED6008581DA /* CircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		F0BD27D1242C1ED6008581DA /* CircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		F0BD27D3242C1EFE008581DA /* TriangleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
+		F0BD27D4242C1EFE008581DA /* TriangleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
+		F0BD27D6242C1F11008581DA /* PieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		F0BD27D7242C1F11008581DA /* PieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +90,15 @@
 				3A9807E2242BF2C6000BDCEE /* main.m */,
 				3A9807E9242BF87D000BDCEE /* ShapeDrawer.h */,
 				3A9807EA242BF87D000BDCEE /* ShapeDrawer.m */,
+				F0BD27CA242C095A008581DA /* UISegmentedControlObjC-Bridging-Header.h */,
+				F0BD27CD242C098A008581DA /* RectangleView.h */,
+				F0BD27CE242C098A008581DA /* RectangleView.m */,
+				F0BD27D0242C1ED6008581DA /* CircleView.h */,
+				F0BD27D1242C1ED6008581DA /* CircleView.m */,
+				F0BD27D3242C1EFE008581DA /* TriangleView.h */,
+				F0BD27D4242C1EFE008581DA /* TriangleView.m */,
+				F0BD27D6242C1F11008581DA /* PieView.h */,
+				F0BD27D7242C1F11008581DA /* PieView.m */,
 			);
 			path = UISegmentedControlObjC;
 			sourceTree = "<group>";
@@ -112,6 +134,7 @@
 				TargetAttributes = {
 					3A9807CC242BF2C2000BDCEE = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -151,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BD27CF242C098A008581DA /* RectangleView.m in Sources */,
 				3A9807D8242BF2C2000BDCEE /* ViewController.m in Sources */,
+				F0BD27D5242C1EFE008581DA /* TriangleView.m in Sources */,
+				F0BD27D8242C1F11008581DA /* PieView.m in Sources */,
 				3A9807D2242BF2C2000BDCEE /* AppDelegate.m in Sources */,
 				3A9807E3242BF2C6000BDCEE /* main.m in Sources */,
+				F0BD27D2242C1ED6008581DA /* CircleView.m in Sources */,
 				3A9807D5242BF2C2000BDCEE /* SceneDelegate.m in Sources */,
 				3A9807EB242BF87D000BDCEE /* ShapeDrawer.m in Sources */,
 			);
@@ -295,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UISegmentedControlObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,6 +331,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hugo.flores.tutorial.UISegmentedControlObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UISegmentedControlObjC/UISegmentedControlObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -311,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UISegmentedControlObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +351,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hugo.flores.tutorial.UISegmentedControlObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UISegmentedControlObjC/UISegmentedControlObjC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
